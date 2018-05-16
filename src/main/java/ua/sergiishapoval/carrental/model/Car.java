@@ -13,6 +13,23 @@ public class Car {
     private Boolean isDiesel;
     private Boolean hasCondition;
     private Integer doorQty;
+    
+    public Car() {
+    	
+    }
+    
+    public Car(Integer id, String model, String brand, String className, Double price, 
+    	Boolean isAutomat, Boolean isDiesel, Boolean hasCondition, Integer doorQty) {
+    	this.id = id;
+    	this.model = model;
+    	this.brand = brand;
+    	this.className = className;
+    	this.price = price;
+    	this.isAutomat = isAutomat;
+    	this.isDiesel = isDiesel;
+    	this.hasCondition = hasCondition;
+    	this.doorQty = doorQty;	
+    }
 
     public Integer getId() {
         return id;
